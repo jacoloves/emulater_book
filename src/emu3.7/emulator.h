@@ -11,12 +11,4 @@ typedef struct {
 
     /* EFLAGSレジスタ */
     uint32_t eflags;
-
-    /* メモリ(バイト列) */
-    uint8_t* memory;
-
-    /* プログラムカウンタ */
-    uint32_t eip;
-} Emulator;
-
-#endif
+}

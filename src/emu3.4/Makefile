@@ -1,5 +1,5 @@
-TARGET = compl.exe
-OBJS = compl.o
+TARGET = px86.exe
+OBJS = main.o emulator_function.o instruction.o modrm.c
 Z_TOOLS = ../z_tools
 
 CC = $(Z_TOOLS)/mingw32-gcc/bin/gcc
