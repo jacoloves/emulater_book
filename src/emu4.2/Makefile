@@ -6,7 +6,7 @@ CC = $(Z_TOOLS)/mingw32-gcc/bin/gcc
 CFLAGS += -Wall
 
 .PHONY: all
-all:
+all :
 	make $(TARGET)
 
 %.o : %.c Makefile
@@ -14,4 +14,3 @@ all:
 
 $(TARGET) : $(OBJS) Makefile
 	$(CC) -o $@ $(OBJS)
-	
